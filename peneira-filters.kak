@@ -17,7 +17,7 @@ define-command peneira-grep -params 1 %{
 }
 
 define-command peneira-git-projects %{
-    peneira 'git: ' "fd --type d --hidden '^.git$'" {
+    peneira 'git: ' "fd --type d --hidden '^.git$' | sed 's/.git\///'" %{
         change-directory %arg{1}
     }
 }
