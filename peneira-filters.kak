@@ -1,6 +1,6 @@
 require-module peneira
 
-define-command penerira-buffers %{
+define-command peneira-buffers %{
     peneira 'buffers: ' %{ printf '%s\n' $kak_quoted_buflist } %{
         buffer %arg{1}
     }
@@ -13,6 +13,12 @@ define-command peneira-grep -params 1 %{
             local file, line, column = arg[1]:match("([^:]+):(%d+):(%d+):")
             kak.edit(file, line, column)
         }
+    }
+}
+
+define-command peneira-git-projects %{
+    peneira 'git: ' "fd --type d --hidden '^.git$'" {
+        change-directory %arg{1}
     }
 }
 
