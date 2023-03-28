@@ -16,6 +16,7 @@ define-command peneira-grep -params 1 %{
     }
 }
 
+# TODO introduce var to define projects dir, e.g. ~/src
 define-command peneira-git-projects %{
     peneira 'git: ' "fd --type d --hidden '^.git$' | sed 's/.git\///'" %{
         change-directory %arg{1}
