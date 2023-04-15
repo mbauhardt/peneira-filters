@@ -15,14 +15,6 @@ try %{ declare-user-mode peneira-filters }
 §
 
     #set-option global luar_interpreter luajit
-#define-command peneira-grep -params 1 %{
-#    peneira -no-rank 'line: ' "rg --hidden --glob='!.git' --column %arg{1}" %{
-#        lua %arg{1} %{
-#            local file, line, column = arg[1]:match("([^:]+):(%d+):(%d+):")
-#            kak.edit(file, line, column)
-#        }
-#    }#
-#}
 
 # TODO introduce var to define projects dir, e.g. ~/src
 #define-command peneira-git-projects %{
