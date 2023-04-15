@@ -12,3 +12,5 @@ TBD
 ### Git Project Filter
 TBD
 
+### XDG config files
+TBD

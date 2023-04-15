@@ -4,7 +4,6 @@ hook global ModuleLoaded peneira-filters %{
 
 provide-module peneira-xdg-configs %§
 
-# TODO introduce var to define projects dir, e.g. ~/src
 define-command peneira-xdg-configs %{
     peneira 'configs: ' "fd --type f --hidden -L '' $XDG_CONFIG_HOME" %{
         edit %arg{1}
