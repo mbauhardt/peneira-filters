@@ -13,7 +13,7 @@ plug "https://codeberg.org/mbauhardt/peneira-filters" config %{
 This snipped above installs the custom filters and map the keystroke ctrl-p to open the kakoune menu to show the available
 keybindings for all the implemented filters.
 
-![Using the peneira user mode](./img/user-mode.mp4)
+![](./img/user-mode.webm)
 
 ### Buffer Filter
 TBD
