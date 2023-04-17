@@ -10,13 +10,17 @@ plug "https://codeberg.org/mbauhardt/peneira-filters" config %{
     map global normal <c-p> ': peneira-filters-mode<ret>'
 }
 ```
+
+### User Mode
 This snipped above installs the custom filters and map the keystroke ctrl-p to open the kakoune menu to show the available
 keybindings for all the implemented filters.
 
 ![](assets/user-mode.gif)
 
 ### Buffer Filter
-TBD
+There is a keybinding for the builtin buffer filter.
+
+![](assets/buffer-filter.gif)
 
 ### Grep Filter
 TBD
