@@ -61,8 +61,17 @@ Required software: [ripgrep](https://github.com/BurntSushi/ripgrep)
 
 ![](assets/grep.gif)
 
-### Git Project Filter
-TBD
+### Project/Workspace Filter
+List all folders which are under git version control. If slected change into and using it as a workspace.
+
+Required software: [fd](https://github.com/sharkdp/fd)
+
+![](assets/projects.gif)
 
 ### XDG config files
-TBD
+List all config files under `$XDG_CONFIG_HOME`.
+
+Required software: [fd](https://github.com/sharkdp/fd)
+
+![](assets/configs.gif)
+
