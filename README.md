@@ -19,7 +19,7 @@ Not required but sometimes helpful
 
 
 ## What
-- Provide a shorthand to existing [gustavo-hms/peneira](https://github.com/gustavo-hms/peneira) filters.
+- Provide a shorthand to existing [gustavo-hms/peneira](https://github.com/gustavo-hms/peneira) filters. This project provides a great way to hook in your own filters.
 - Implement additional filters to achieve the `Why`.
 
 
@@ -38,6 +38,11 @@ This snipped above installs the custom filters and map the keystroke ctrl-p to o
 keybindings for all the implemented filters.
 
 ![](assets/user-mode.gif)
+
+### File Filter
+This is one of the already implemented filter from [gustavo-hms/peneira](https://github.com/gustavo-hms/peneira). List all files baseed on the `fzf` algorithm.
+
+![](assets/files.gif)
 
 ### Buffer Filter
 TBD
