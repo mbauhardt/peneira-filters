@@ -5,13 +5,12 @@ Additional custom filters for the [kakoune](http://kakoune.org/) plugin [gustavo
 ## Why
 The following functionality or feature set helps me in my daily work to find files I want to edit or just to look into.
 
-- Fixed dir which is my *project/workspace dir*. Basic search starts from there.
-- *Search* and open for file by name within my project/workspace with an algorithm which feels convenient for me, I believe in [fzy](https://github.com/jhawthorn/fzy).
+- Fixed dir which is my **project/workspace dir**. Basic search starts from there.
+- **Search** and open for file by name within my project/workspace with an algorithm which feels convenient for me, I believe in [fzy](https://github.com/jhawthorn/fzy).
 - Search and open for file by name starting from the directory of the current open file.
-- *Buffer list* with open files. Quick way to search for a specific buffer and switch into.
-- Within the current open file, searching a word, *list all lines* with matches and go to this line.
-- *Grep* for file contents in my project/workspace recursively, list all files with matches and open when hit enter.
-- 
+- **Buffer list** with open files. Quick way to search for a specific buffer and switch into.
+- Within the current open file, searching a word, **list all lines** with matches and go to this line.
+- **Grep** for file contents in my project/workspace recursively, list all files with matches and open when hit enter.
 
 Not required but sometimes helpful
 
@@ -26,7 +25,7 @@ Not required but sometimes helpful
 
 ## How
 
-## Installation
+### Installation
 Via [plug.kak](https://github.com/andreyorst/plug.kak)
 ```
 plug "https://codeberg.org/mbauhardt/peneira-filters" config %{
@@ -49,6 +48,11 @@ This is one of the already implemented filter from [gustavo-hms/peneira](https:/
 List of buffer to be able to switch between already opened files.
 
 ![](assets/buffer.gif)
+
+### Lines Filter
+List all lines with a specific search criteria and go to this line.
+
+![](assets/lines.gif)
 
 ### Grep Filter
 TBD
