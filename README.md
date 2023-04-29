@@ -50,12 +50,16 @@ List of buffer to be able to switch between already opened files.
 ![](assets/buffer.gif)
 
 ### Lines Filter
-List all lines with a specific search criteria and go to this line.
+List all lines with a specific search criteria and go to this line. One of the existing filters from [gustavo](https://github.com/gustavo-hms).
 
 ![](assets/lines.gif)
 
 ### Grep Filter
-TBD
+Grep for file contents recursively, list them in a list, select file with further search via fzy.
+
+Required software: [ripgrep](https://github.com/BurntSushi/ripgrep)
+
+![](assets/grep.gif)
 
 ### Git Project Filter
 TBD
